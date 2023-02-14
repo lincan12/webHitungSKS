@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Program Hitung Ipk UBSI</title>
+</head>
+<body>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<section class="get-in-touch" id=""  >
+    <h2 class="title">Jumlah POIN SKS </h2>
+    <div class="contact-form row">
+        <div class="form-field col-lg-12"required>
+            <input id="name" class="input-text js-input" type="text" >
+            <label class="label" for="name">Nama Lengkap 😀</label>
+        </div>
+
+
+        <div class="form-field col-lg-4 ">
+            <input id="matkul1" class="input-text js-input" type="text"  >
+            <label class="label" for="sks">Nama Matkul 1️⃣</label>
+        </div>
+        <div class="form-field col-lg-4 ">
+            <input id="nilai1" class="input-text js-input" type="text"  >
+            <label class="label" for="sks">Nilai Matkul 1️⃣</label>
+        </div>
+        <div class="form-field col-lg-4 ">
+            <input id="jumlahSKS1" class="input-text js-input" type="text" >
+            <label class="label" for="jumlahSKS1">Jumlah SKS</label>
+        </div>
+        <!-- <div class="form-field col-lg-3">
+            <input class="submit-btn" type="submit" value="Submit" onclick="poinSks1()">
+        </div> -->
+
+
+        <div class="form-field col-lg-4 ">
+            <input id="matkul2" class="input-text js-input" type="text" >
+            <label class="label" for="sks">Nama Matkul 2️⃣</label>
+        </div>
+        <div class="form-field col-lg-4 ">
+            <input id="nilai2" class="input-text js-input" type="text" >
+            <label class="label" for="sks">Nilai Matkul 2️⃣</label>
+        </div>
+        <div class="form-field col-lg-4 ">
+            <input id="jumlahSKS2" class="input-text js-input" type="text" >
+            <label class="label" for="jumlahSKS2">Jumlah SKS</label>
+        </div>
+        <!-- <div class="form-field col-lg-3">
+            <input class="submit-btn" type="submit" value="Kirim" onclick=>
+        </div> -->
+
+
+
+        <div class="form-field col-lg-4 ">
+            <input id="matkul3" class="input-text js-input" type="text" >
+            <label class="label" for="sks">Nama Matkul 3️⃣</label>
+        </div>
+        <div class="form-field col-lg-4 ">
+            <input id="nilai3" class="input-text js-input" type="text" >
+            <label class="label" for="sks">Nilai Matkul 3️⃣</label>
+        </div>
+        <div class="form-field col-lg-4 ">
+            <input id="jumlahSKS3" class="input-text js-input" type="text" >
+            <label class="label" for="jumlahSKS3">Jumlah SKS</label>
+        </div>
+        <!-- <div class="form-field col-lg-3">
+            <input class="submit-btn" type="submit" value="Kirim" onclick=>
+        </div> -->
+
+
+
+        <div class="form-field col-lg-4 ">
+            <input id="matkul4" class="input-text js-input" type="text" >
+            <label class="label" for="sks">Nama Matkul 4️⃣</label>
+        </div>
+        <div class="form-field col-lg-4 ">
+            <input id="nilai4" class="input-text js-input" type="text" >
+            <label class="label" for="sks">Nilai Matkul 4️⃣</label>
+        </div>
+        <div class="form-field col-lg-4 ">
+            <input id="jumlahSKS4" class="input-text js-input" type="text" >
+            <label class="label" for="jumlahSKS4">Jumlah SKS</label>
+        </div>
+
+
+
+
+        <div class="form-field col-lg-4 ">
+            <input id="matkul5" class="input-text js-input" type="text" >
+            <label class="label" for="sks">Nama Matkul 5️⃣</label>
+        </div>
+        <div class="form-field col-lg-4 ">
+            <input id="nilai5" class="input-text js-input" type="text" >
+            <label class="label" for="sks">Nilai Matkul 5️⃣</label>
+        </div>
+        <div class="form-field col-lg-4 ">
+            <input id="jumlahSKS5" class="input-text js-input" type="text" >
+            <label class="label" for="jumlahSKS5">Jumlah SKS</label>
+        </div>
+        <!-- <div class="form-field col-lg-3">
+            <input class="submit-btn" type="submit" value="Kirim" onclick=>
+        </div> -->
+
+
+
+        <div class="form-field col-lg-4 ">
+            <input id="matkul6" class="input-text js-input" type="text" >
+            <label class="label" for="sks">Nama Matkul 6️⃣</label>
+        </div>
+        <div class="form-field col-lg-4 ">
+            <input id="nilai6" class="input-text js-input" type="text" >
+            <label class="label" for="sks">Nilai Matkul 6️⃣</label>
+        </div>
+
+        <div class="form-field col-lg-4 ">
+            <input id="jumlahSKS6" class="input-text js-input" type="text" >
+            <label class="label" for="jumlahSKS6">Jumlah SKS</label>
+        </div>
+        <!-- <div class="form-field col-lg-3">
+            <input class="submit-btn" type="submit" value="Kirim" onclick=>
+        </div> -->
+
+        <div class="form-field col-lg-4 ">
+            <input id="matkul7" class="input-text js-input" type="text" >
+            <label class="label" for="sks">Nama Matkul 7️⃣</label>
+        </div>
+        <div class="form-field col-lg-4 ">
+            <input id="nilai7" class="input-text js-input" type="text" >
+            <label class="label" for="sks">Nilai Matkul 7️⃣</label>
+        </div>
+        <div class="form-field col-lg-4 ">
+            <input id="jumlahSKS7" class="input-text js-input" type="text" >
+            <label class="label" for="jumlahSKS7">Jumlah SKS</label>
+        </div>
+        <!-- <div class="form-field col-lg-3">
+            <input class="submit-btn" type="submit" value="Kirim" onclick=>
+        </div> -->
+        <div class="form-field col-lg-4 ">
+            <label class="label" for="jumlahSKS6">Total Poin Anda :</label>
+            <!-- <a href="qwe.html" id="megalodon">Lanjutkan Untuk Hitung IPK</a> -->
+        </div>
+        <div class="form-field col-lg-4 ">
+            <label class="label" for="jumlahSKS6" id="hasilnya"></label>
+        </div>
+        <div class="form-field col-lg-12">
+            <input class="submit-btn" type="submit" value="Submit" onclick="poinSks1()">
+        </div>
+
+    </section>
+
+    <section class="get-in-touch" id="megalodon"  >
+        <h2 class="title">Jumlah  SKS </h2>
+        <div class="contact-form row">
+            <!-- <div class="form-field col-lg-12"required>
+                <input id="name" class="input-text js-input" type="text" >
+                <label class="label" for="name">Nama Lengkap 😀</label>
+            </div> -->
+    
+    
+            <div class="form-field col-lg-12 ">
+                <input id="jumlahPoin" class="input-text js-input" type="text"  >
+                <label class="label" for="sks">Jumlah Poin</label>
+            </div>
+            <div class="form-field col-lg-12 ">
+                <input id="jumlahSKS" class="input-text js-input" type="text"  >
+                <label class="label" for="sks">Jumlah Keseluruhan SKS</label>
+            </div>
+            <div class="form-field col-lg-4 ">
+                <label class="label" for="jumlahSKS1">Jumlah IPK ANDA:</label>
+            </div>
+            <div class="form-field col-lg-4 ">
+                <label class="label" for="jumlahSKS6" id="hasilnya2"></label>
+            </div>
+            <div class="form-field col-lg-12">
+                <input class="submit-btn" type="submit" value="Submit" onclick="hasilSKS()">
+            </div>
+
+    </form>
+</section>
+
+</body>
+<script type="application/javascript">
+
+// var sksPilih1=document.getElementById("sks1").value
+// matkul1=document.getElementById("matkul1").value
+// nilai1=document.getElementById("nilai1").value
+let megalodon=document.getElementById("megalodon")
+megalodon.style.display='none'
+
+function poinSks1(){
+    let nilai1=document.getElementById("nilai1").value
+    let jumlahSKS1=document.getElementById("jumlahSKS1").value
+    let jumlahSKS2=document.getElementById("jumlahSKS2").value
+    let jumlahSKS3=document.getElementById("jumlahSKS3").value
+    let jumlahSKS4=document.getElementById("jumlahSKS4").value
+    let jumlahSKS5=document.getElementById("jumlahSKS5").value
+    let jumlahSKS6=document.getElementById("jumlahSKS6").value
+    let jumlahSKS7=document.getElementById("jumlahSKS7").value
+
+    nilai1=document.getElementById("nilai1").value
+    nilai2=document.getElementById("nilai2").value
+    nilai3=document.getElementById("nilai3").value
+    nilai4=document.getElementById("nilai4").value
+    nilai5=document.getElementById("nilai5").value
+    nilai6=document.getElementById("nilai6").value
+    nilai7=document.getElementById("nilai7").value
+    
+    
+    if (jumlahSKS1=="1"){
+        var poins1=nilai1*jumlahSKS1
+        console.log(poins1)
+    }
+    else if(jumlahSKS1=="2"){
+        var poins1=nilai1*jumlahSKS1
+        console.log(poins1)
+    }
+    else if(jumlahSKS1=="3"){
+        var poins1=nilai1*jumlahSKS1
+        console.log(poins1)
+    }
+    else if(jumlahSKS1=="4"){
+        var poins1=nilai1*jumlahSKS1
+        console.log(poins1)
+    }
+    else if (jumlahSKS1 > 4){
+        alert("Batas SKS 4 , Silahkan Cek Ulang Data Di Matkul 1️⃣")
+    }
+    else if(jumlahSKS1<1){
+        alert("DATA TIDAK BOLEH KOSONG")
+    }
+
+
+
+    if (jumlahSKS2=="1"){
+        var poins2=nilai2*jumlahSKS2
+        console.log(poins2)
+    }
+    else if(jumlahSKS2=="2"){
+        var poins2=nilai2*jumlahSKS2
+        console.log(poins2)
+    }
+    else if(jumlahSKS2=="3"){
+        var poins2=nilai2*jumlahSKS2
+        console.log(poins2)
+    }
+    else if(jumlahSKS2=="4"){
+        var poins2=nilai2*jumlahSKS2
+        console.log(poins2)
+    }
+    else if (jumlahSKS2 > 4){
+        alert("Batas SKS 4 , Silahkan Cek Ulang Data Di Matkul 2️⃣")
+    }
+    if(jumlahSKS2<1){
+        alert("DATA TIDAK BOLEH KOSONG")
+    }else{
+        megalodon.style.display='block'
+    }
+
+
+    if (jumlahSKS3=="1"){
+        var poins3=nilai3*jumlahSKS3
+        console.log(poins3)
+    }
+    else if(jumlahSKS3=="2"){
+        var poins3=nilai3*jumlahSKS3
+        console.log(poins3)
+    }
+    else if(jumlahSKS3=="3"){
+        var poins3=nilai3*jumlahSKS3
+        console.log(poins3)
+    }
+    else if(jumlahSKS3=="4"){
+        var poins3=nilai3*jumlahSKS3
+        console.log(poins3)
+    }
+    else if (jumlahSKS3 > 4){
+        alert("Batas SKS 4 , Silahkan Cek Ulang Data Di Matkul 3️⃣")
+    }
+    else if(jumlahSKS3<1){
+        alert("DATA TIDAK BOLEH KOSONG")
+    }
+
+
+    if (jumlahSKS1=="4"){
+        var poins4=nilai4*jumlahSKS4
+        console.log(poins4)
+    }
+    else if(jumlahSKS4=="2"){
+        var poins4=nilai4*jumlahSKS4
+        console.log(poins4)
+    }
+    else if(jumlahSKS4=="3"){
+        var poins4=nilai4*jumlahSKS4
+        console.log(poins4)
+    }
+    else if(jumlahSKS4=="4"){
+        var poins4=nilai4*jumlahSKS4
+        console.log(poins4)
+    }
+    else if (jumlahSKS4 > 4){
+        alert("Batas SKS 4 , Silahkan Cek Ulang Data Di Matkul 4️⃣")
+    }
+
+    if (jumlahSKS5=="1"){
+        var poins5=nilai5*jumlahSKS5
+        console.log(poins5)
+    }
+    else if(jumlahSKS5=="2"){
+        var poins5=nilai5*jumlahSKS5
+        console.log(poins5)
+    }
+    else if(jumlahSKS5=="3"){
+        var poins5=nilai5*jumlahSKS5
+        console.log(poins5)
+    }
+    else if(jumlahSKS5=="4"){
+        var poins5=nilai5*jumlahSKS5
+        console.log(poins5)
+    }
+    else if (jumlahSKS5 > 4){
+        alert("Batas SKS 4 , Silahkan Cek Ulang Data Di Matkul 5️⃣")
+    }
+
+    if (jumlahSKS6=="1"){
+        var poins6=nilai6*jumlahSKS6
+        console.log(poins6)
+    }
+    else if(jumlahSKS6=="2"){
+        var poins6=nilai6*jumlahSKS6
+        console.log(poins6)
+    }
+    else if(jumlahSKS6=="3"){
+        var poins6=nilai6*jumlahSKS6
+        console.log(poins6)
+    }
+    else if(jumlahSKS6=="4"){
+        var poins6=nilai6*jumlahSKS6
+        console.log(poins6)
+    }
+    else if (jumlahSKS6 > 4){
+        alert("Batas SKS 4 , Silahkan Cek Ulang Data Di Matkul 6️⃣")
+    }
+
+    if (jumlahSKS7=="1"){
+        var poins7=nilai7*jumlahSKS7
+        console.log(poins7)
+    }
+    else if(jumlahSKS7=="2"){
+        var poins7=nilai7*jumlahSKS7
+        console.log(poins7)
+    }
+    else if(jumlahSKS7=="3"){
+        var poins7=nilai7*jumlahSKS7
+        console.log(poins7)
+    }
+    else if(jumlahSKS7=="4"){
+        var poins7=nilai7*jumlahSKS7
+        console.log(poins7)
+    }
+    else if (jumlahSKS7 > 4){
+        alert("Batas SKS 4 , Silahkan Cek Ulang Data Di Matkul 7️⃣")
+    }
+    var hasil=poins1+poins2+poins3+poins4+poins5+poins6+poins7
+    console.log(`hasil nya ${hasil}`)
+
+    var hasilnya=document.getElementById("hasilnya")
+    hasilnya.innerHTML=hasil
+    // megalodon.style.display='block'
+}
+    function hasilSKS(){
+        jumlahPoin=document.getElementById("jumlahPoin").value
+        jumlahSKS=document.getElementById("jumlahSKS").value
+        var hasilSksKu=jumlahPoin/jumlahSKS
+        console.log(hasilSksKu)
+        var mySKS=document.getElementById("hasilnya2")
+        mySKS.innerHTML=hasilSksKu
+        alert("Jangan Lupa Follow Ig Gua @ezraa0_")
+    }
+
+
+</script>
+</html>
